@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated runtime outputs
+logs/*
+reports/*
+data/processed/*
+data/quarantine/*
+data/raw/*
+
+# Keep a placeholder for documented data folders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/quarantine/.gitkeep
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Testing and coverage
+.pytest_cache/
+htmlcov/
+.coverage
