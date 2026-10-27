@@ -4,6 +4,10 @@ A reproducible portfolio project that simulates a contact-center analytics workf
 
 See `DATASET_SUMMARY.md` for the verified dataset totals, ASA range, and Power BI import instructions.
 
+## 📊 Dashboard Preview
+
+![Contact Center Performance Dashboard](powerbi/screenshots/dashboard_overview.png)
+
 ## Business problem
 
 Contact-center teams need reliable reporting on call volume, handling efficiency, service level, abandonment, IVR containment, and team performance. Before producing KPIs, source data must be normalized, deduplicated, validated, reconciled, and loaded consistently.
